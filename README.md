@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Elastic-Job - distributed scheduled job solution
 
 [![Build Status](https://secure.travis-ci.org/elasticjob/elastic-job-lite.png?branch=master)](https://travis-ci.org/elasticjob/elastic-job-lite)
@@ -110,3 +111,6 @@ public class MyElasticJob implements SimpleJob {
     <job:simple id="myElasticJob" class="xxx.MyElasticJob" registry-center-ref="regCenter" cron="0/10 * * * * ?"   sharding-total-count="3" sharding-item-parameters="0=A,1=B,2=C" />
 </beans>
 ```
+=======
+# job-lite
+>>>>>>> 48277f7c4db074652737b7498a33815e7635f0f4
